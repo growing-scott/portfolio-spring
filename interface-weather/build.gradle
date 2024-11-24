@@ -1,0 +1,15 @@
+bootJar {
+    enabled = false
+}
+jar {
+    enabled = true
+}
+
+dependencies {
+    implementation('org.yaml:snakeyaml:2.2')
+    implementation('org.apache.httpcomponents.core5:httpcore5:5.2.1')
+}
+
+test {
+    useJUnitPlatform()
+}

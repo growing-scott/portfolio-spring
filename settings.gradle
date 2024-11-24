@@ -1,0 +1,3 @@
+rootProject.name = 'scott'
+include 'core-server'
+include 'interace-weather'
